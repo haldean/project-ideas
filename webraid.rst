@@ -41,6 +41,7 @@ RAID-3     Unsupported
 RAID-4     Split into N-1 blocks, block_N is reduce(xor, blocks).
 RAID-5     Split into N-1 blocks, block_rand is reduce(xor, blocks).
 RAID-6     Split into N-2 blocks, block_rand1 and block_rand2 are both reduce(xor, blocks).
+========== ================================================================================
 
 RAID-2 is unsupported as it is designed to optimize accesses on spinning
 platters, which doesn't buy a performance gain on webservices. RAID-3 is
