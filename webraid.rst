@@ -82,6 +82,7 @@ Storage backends I'm currently considering:
 * Dropbox
 * Google Drive
 * Microsoft SkyDrive
+* Gmail (IMAP)
 * Amazon S3
 * Google Cloud Storage
 * FTP server
